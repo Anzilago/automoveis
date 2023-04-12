@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;;
+	box-sizing: border-box;
+}
+
+#header{
+	height: 20vh;
+}
+.nome-empresa{
+	text-align: center;
+	padding: 2rem;
+	color: red;
+}
+#menu{
+	display: flex;
+	justify-content: center;
+}
+#menu a{
+	text-decoration: none;
+	color: black;
+	padding: .5rem;
+}
+#menu a:hover{
+	background-color: red;
+}
+
+
+/*footer*/
+#footer{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding: 5rem;
+}
+ 
+#contato-footer div{
+	display: flex;
+	flex-direction: column;
+	padding: .3rem;
+}
+#contato-footer div a{
+	text-decoration: none;
+	color: black;
+}
+
+@media(max-width: 480px){
+	#header{
+		margin-bottom: .5rem;
+	}
+	.nome-empresa{
+		font-size: 50%;
+	}
+	#menu a{
+		font-size: 75%;
+	}
+	#footer{
+		flex-direction: column;
+	}
+}

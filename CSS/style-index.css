@@ -1,0 +1,64 @@
+#boasvindas{
+	text-align: center;
+}
+#carroPrincipal{
+	display: flex;
+	justify-content: center;
+	margin: 2rem 0;
+}
+#carroPrincipal img{
+	width: 45%;
+}
+
+#sobre{
+	width: 80%;
+	margin: auto;
+	text-align: justify;
+	word-spacing: .2rem;
+	line-height: 1.5;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
+}
+
+/*--------veiculos------------*/
+#veiculos h2{
+	text-align: center;
+}
+#cardsVeiculos{
+	display: flex;
+	flex-wrap: wrap;
+	width: 80%;
+	margin: auto;
+	justify-content: center;
+}
+#cardsVeiculos div{
+	margin: 2rem .5rem 0 .5rem;
+
+}
+#cardsVeiculos img{
+	width: 30rem;
+	height: 20rem;
+}
+#vermais{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 10rem;
+	margin-top: 0;
+}
+#vermais a{
+	text-decoration: none;
+	color: red;
+}
+
+@media(max-width: 480px){
+	#boasvindas{
+		font-size: .7rem;
+	}	
+	#sobre{
+		font-size: 1rem;
+	}
+	#cardsVeiculos img{
+		width: 15rem;
+		height: 10rem;
+	}
+}

@@ -1,0 +1,33 @@
+main h1{
+	text-align: center;
+	margin-bottom: 3rem;
+}
+
+#todosCarros{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-template-areas: "todosCarrosCards todosCarrosCards todosCarrosCards";
+	width: 90%;
+	margin: auto;
+	min-height: 100vh;
+}
+#todosCarrosCards{
+	grid-area: todosCarrosCards;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-items: center;
+}
+#todosCarrosCards img{
+	width: 30rem;
+	height: 25rem;
+	margin-right: 2rem;
+
+}
+
+@media(max-width: 560px){
+	#todosCarrosCards img{
+		width: 17rem;
+		height: 12rem;
+	}
+}
