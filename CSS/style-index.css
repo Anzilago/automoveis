@@ -1,3 +1,6 @@
+body{
+	background: linear-gradient(90deg, #F5F5F5, #BEBEBE, #444444);
+}
 #boasvindas{
 	text-align: center;
 }

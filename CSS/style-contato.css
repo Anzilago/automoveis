@@ -1,3 +1,6 @@
+body{
+	background: linear-gradient(90deg, #F5F5F5, #BEBEBE, #444444);
+}
 #telaContato{
 	min-height: 100vh;
 }
@@ -63,6 +66,28 @@ button{
 }
 button:hover{
 	background-color: mediumvioletred;
+}
+
+#marcas{
+	display: flex;
+	justify-content: center;
+	margin-top: 2rem;
+}
+#marcas h2{
+	margin-right: 1.5rem;
+}
+
+#relacao div{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	width: 100%;
+	margin-top: 2rem;
+}
+#relacao div div{
+	display: grid;
+	width: 20%;
 }
 
 @media(max-width: 1200px){
